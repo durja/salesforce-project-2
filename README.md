@@ -1,25 +1,25 @@
-# Customer Support Case Management System
+# 🚀 Customer Support Case Management System
 
-## Overview
+## 📖 Overview
 
 Customer Support Case Management System is a Salesforce CRM application developed to manage customer support requests, automate case workflows, and improve support operations using Salesforce features.
 
 ---
 
-## Features
+## ✨ Features
 
-- Customer case creation and management
-- Account and Contact management
-- SLA and Priority automation using Flow Builder
-- Resolution Date update using Apex Trigger
-- Lightning Web Component (LWC) dashboard
-- Reports and Dashboards
-- Validation Rules
-- Permission Sets and Sharing Rules
+- 📌 Customer case creation and management
+- 👥 Account and Contact management
+- ⚡ SLA and Priority automation using Flow Builder
+- 🔄 Resolution Date update using Apex Trigger
+- 💻 Lightning Web Component (LWC) dashboard
+- 📊 Reports and Dashboards
+- ✅ Validation Rules
+- 🔐 Permission Sets and Sharing Rules
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Salesforce CRM
 - Apex
@@ -71,7 +71,7 @@ Created reports and dashboards to monitor:
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 force-app/
@@ -81,9 +81,8 @@ README.md
 
 ---
 
-## Future Enhancements
+## 🔮 Future Enhancements
 
-- Email Notifications
-- Case Escalation
-- Knowledge Base Integration
-
+- 📧 Email Notifications
+- 🚀 Case Escalation
+- 📚 Knowledge Base Integration
