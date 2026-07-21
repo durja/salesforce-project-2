@@ -2,84 +2,88 @@
 
 ## Overview
 
-Customer Support Case Management System is a Salesforce CRM application developed to streamline customer service operations. It helps support teams create, manage, assign, and resolve customer cases efficiently using Salesforce automation and customization features.
+Customer Support Case Management System is a Salesforce CRM application developed to manage customer support requests, automate case workflows, and improve support operations using Salesforce features.
+
+---
 
 ## Features
 
 - Customer case creation and management
-- Case assignment to support agents
-- Case priority and status tracking
-- Automated workflow notifications
-- Case search and record management
-- Lightning Web Component user interface
-- Reports and dashboards for support analysis
-- Role-based access control
+- Account and Contact management
+- SLA and Priority automation using Flow Builder
+- Resolution Date update using Apex Trigger
+- Lightning Web Component (LWC) dashboard
+- Reports and Dashboards
+- Validation Rules
+- Permission Sets and Sharing Rules
+
+---
 
 ## Technologies Used
 
 - Salesforce CRM
-- Apex Programming
+- Apex
 - Lightning Web Components (LWC)
 - SOQL
 - Flow Builder
 - Lightning App Builder
 - Validation Rules
 - Reports & Dashboards
-- Profiles
 - Permission Sets
-- Sharing Rules
 - Salesforce CLI
 - Visual Studio Code
 
+---
+
 ## Salesforce Components
 
-### Custom Objects
+### Standard Objects
+- Account
+- Contact
+- Case
 
-### Case__c
-Stores customer support requests.
+### Custom Fields
+- Case Category
+- SLA Due Date
+- Resolution Date
+- Resolution Summary
+- Customer Satisfaction Rating
 
-Fields:
-- Case Number
-- Customer Name
-- Issue Type
-- Priority
-- Status
-- Description
-- Assigned Agent
-
-
-### Customer__c
-Stores customer information.
-
-Fields:
-- Customer Name
-- Email
-- Phone
-- Customer Type
-
+---
 
 ## Automation
 
-- Automated case assignment using Flow Builder.
-- Email notifications triggered based on case status.
-- Validation rules implemented for accurate case information.
+- SLA and Priority assignment using Record-Triggered Flow
+- Resolution Date update using Apex Trigger
+- Real-time case summary using Apex Controller and SOQL
 
+---
 
-## Security Implementation
+## Reports & Dashboard
 
-- Configured profiles and permission sets for different user roles.
-- Implemented sharing rules for secure record visibility.
-- Managed object and field-level permissions.
+Created reports and dashboards to monitor:
 
-
-## Reports and Dashboards
-
-Created dashboards to monitor:
-
+- Cases by Status
+- Cases by Priority
+- Cases by Category
+- Cases by Account
 - Open Cases
-- Resolved Cases
-- Priority-wise Cases
-- Agent Performance
 
+---
 
 ## Project Structure
+
+```text
+force-app/
+screenshots/
+README.md
+```
+
+---
+
+## Future Enhancements
+
+- Email Notifications
+- Case Escalation
+- Knowledge Base Integration
+
